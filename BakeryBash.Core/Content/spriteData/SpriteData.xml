@@ -1,0 +1,101 @@
+﻿<!-- NOTES:
+Add here all the sprites that you are going to use them in your game.
+-->
+
+<Sprites>
+
+  <toast path="" start="normal-1">
+    <Center/>
+    <Anim id="normal-1" path="Enemies/toast-normal0"/>
+    <Anim id="normal-2"  path="Enemies/toast-normal1"/>
+    <Anim id="normal-3"  path="Enemies/toast-normal2"/>
+    <Anim id="normal-4"  path="Enemies/toast-normal3"/>
+    <Anim id="normal-dead"  path="Enemies/toast-normal-dead"/>
+    <Anim id="normal-react-0"  path="Enemies/toast-normal-react0"/>
+    <Anim id="normal-react-1"  path="Enemies/toast-normal-react1"/>
+    <Anim id="normal-react-2"  path="Enemies/toast-normal-react2"/>
+
+
+    <Anim id="shocked" path="Enemies/toast-shock"/>
+
+    <Anim id="poisoned-1"  path="Enemies/toast-poisoned0"/>
+    <Anim id="poisoned-2"  path="Enemies/toast-poisoned1"/>
+    <Anim id="poisoned-3"  path="Enemies/toast-poisoned2"/>
+    <Anim id="poisoned-4"  path="Enemies/toast-poisoned3"/>
+    <Anim id="poisoned-dead"  path="Enemies/toast-poisoned-dead"/>
+    <Anim id="poisoned-react-0"  path="Enemies/toast-poisoned-react0"/>
+    <Anim id="poisoned-react-1"  path="Enemies/toast-poisoned-react1"/>
+    <Anim id="poisoned-react-2"  path="Enemies/toast-poisoned-react2"/>
+  </toast>
+
+  <shield path="" start="default">
+    <Center/>
+    <Anim id="default" frames="0,1,2" path="Enemies/toast-shield"/>
+  </shield>
+
+  <faceguard path="" start="default">
+    <Center/>
+    <Anim id="default" frames="0,1,2" path="Enemies/toast-faceguard"/>
+  </faceguard>
+
+  <helmet path="" start="default">
+    <Center/>
+    <Anim id="default" frames="0,1,2" path="Enemies/toast-helmet"/>
+  </helmet>
+
+  <cloud path="" start="start">
+    <Center/>
+    <Anim id="start" frames="1,2,3" delay="0.1" path="Particles/cloud"/>
+  </cloud>
+
+  <ball path="" start="normal">
+    <Center />
+    <Anim id="normal" path="Balls/normal-ball"/>
+
+    <Loop id="bomb" frames="0,1,2,1" delay="0.1" path="Balls/bomb-ball"/>
+
+    <Loop id="shock" frames="0,1,2,3,4,3,2,1" delay="0.1" path="Balls/electric-ball"/>
+
+    <Anim id="poison" path="Balls/poison-ball"/>
+
+    <Anim id="multiball" frames="0,1,2,3" path="Balls/multi-ball" />
+    <Loop id="multiball-loop" frames="0,1,2,3" delay="0.1" path="Balls/multi-ball"/>
+
+  </ball>
+
+  <confetti path="" start="default">
+    <Anim id="default" path="Particles/confetti"/>
+  </confetti>
+
+  <pickup path="">
+    <Center/>
+    <Anim id="multiball" path="Pickups/multi-ball-pickup"/>
+  </pickup>
+
+  <missilelauncher path="" start="base">
+    <Center />
+    <Loop id="base" frames="0,1" delay="0.8" path="Pickups/missile-launcher-base"/>
+  </missilelauncher>
+
+  <aimline path="" start="default">
+    <Justify x="0.5" y="1"/>
+    <Anim id="default" path="Gameplay/aim-line"/>
+  </aimline>
+
+  <tackshooter path="" start="idle">
+    <Center />
+    <Anim id="idle" path="Pickups/tack-shooter0"/>
+    <Anim id="shoot" path="Pickups/tack-shooter1"/>
+  </tackshooter>
+
+  <lightning path="" start="lightning">
+    <Center />
+    <Anim id="lightning" path="Effects/lightning-bolt"/>
+  </lightning>
+
+  <explosion path="" start="default">
+    <Center/>
+    <Anim id="default" frames="0-7" delay="0.04" path="Effects/explosion"/>
+  </explosion>
+
+</Sprites>

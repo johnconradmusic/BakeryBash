@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6efba8a9-a407-4029-bdd0-651d22a87386</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>BakeryBash.Core</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BakeryBash.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Actor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\AimLine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Ball.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BallLauncher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BallQueue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Cloud.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\DangerLights.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\DangerZone.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Debris.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Enemy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\EnemyArmor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Explosion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Faceguard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\GameOverCard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\GridEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\HealthBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Helmet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\LegacyLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\LevelBackground.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\LevelBoundaries.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\LightningBolt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Menus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Missile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\MissileLauncherPickup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\ModalPopup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\MultiBallPickup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\NineSliceComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\PickupItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\QuickSprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\QuickText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\ScoreBoard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Shield.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\SpecialBallPickup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Tack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\TackShooter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\TapHotSpot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Toast.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\Button.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\Label.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\ProgressBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\SelectableUIElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\TextButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\TextMenu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\UI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\UI\UIElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Wall.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Wire.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\ActiveFont.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Choosers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\CollisionData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\ColorExt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Colors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\DamageEffect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\EnemyStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Events.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Fonts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\GameManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\GameplayBuffers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\GameRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\GFX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\HiresRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\HUDRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Input.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\NavigationList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\ParticleRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\ParticleTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\PerfTimerLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\PlayerAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\RectangleF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\RunThread.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\SaveData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\SerializableDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Session.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\Tags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\UserIO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\VirtualAsset.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\VirtualContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\VirtualRenderTarget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\VirtualTexture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Colliders\Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Colliders\Collide.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Colliders\Collider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Colliders\ColliderList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Colliders\Grid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Colliders\Hitbox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\CollidableComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Component.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\GraphicsComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\Image.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\ParticleEmitter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\PixelText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\Sprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\Spritesheet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\Text\NumberText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\Text\OutlineText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\Text\Text.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\Text\TimerText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Graphics\TileGrid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\Alarm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\Coroutine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\CoroutineHolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\CounterSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\Shaker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\ShakerList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\SineWave.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\StateMachine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\Tween.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Components\Logic\Wiggler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Engine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Graphics\Atlas.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Graphics\MTexture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Graphics\SpriteBank.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Graphics\SpriteData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Graphics\Tileset.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\Binding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\MInput.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\VirtualAxis.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\VirtualButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\VirtualInput.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\VirtualIntegerAxis.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\VirtualJoystick.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Input\VirtualTap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\InternalUtilities\ComponentList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\InternalUtilities\EntityList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\InternalUtilities\RendererList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\InternalUtilities\TagLists.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Particles\Particle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Particles\ParticleSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Particles\ParticleType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Renderers\EverythingRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Renderers\Renderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Renderers\SingleTagRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Renderers\TagExcludeRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Scene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\BitTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Cache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Calc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\CheatListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\ChoiceSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Chooser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Commands.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Draw.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Ease.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\ErrorLog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\MethodHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\PixelFont.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Pnt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Pooler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\SaveLoad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\SimpleCurve.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\SpecEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Tiler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\Tracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Monocle\Util\VirtualMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\Level.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\LevelLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\TitleScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\Transitions\FadeToColor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\Transitions\ImageMaskTransition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\Transitions\ScreenWipe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\Transitions\ToastWipe.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Atlases\Sprites.hash">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Atlases\Sprites.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Atlases\Sprites0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\anime18.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\anime18_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\anime24.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\anime24_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko120.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko120_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko120_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko120_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko20.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko20_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko30.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko30_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko64.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\comicgecko64_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\cubano.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\cubano_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\montserrat.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\montserrat30.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\montserrat30_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\montserrat_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Monocle\MonocleDefault.spritefont">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Monocle\MonocleDefault.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\spriteData\SpriteData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Content\build-atlas-continuous.bat" />
+    <None Include="$(MSBuildThisFileDirectory)Content\build-atlas.bat" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\crunch.exe" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Effects\Squares.mgfxo" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Effects\TextureWipe.mgfxo" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Effects\Wind.mgfxo" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net6.0\Content\.mgstats" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\WindowsStoreApp\Content\.mgstats" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Backgrounds\kitchen-background-oven.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Backgrounds\kitchen-background.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Backgrounds\simple-background.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Backgrounds\title-screen-background.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Backgrounds\title-screen-logo.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\bomb-ball0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\bomb-ball1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\bomb-ball2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\electric-ball0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\electric-ball1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\electric-ball2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\electric-ball3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\electric-ball4.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\multi-ball0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\multi-ball1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\multi-ball2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\multi-ball3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\normal-ball.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Balls\poison-ball.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion4.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion5.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion6.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\explosion7.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\impact.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\lightning-bolt.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\particle.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\pixel.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\shock-background0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\shock-background1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Effects\toast-mask.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-faceguard0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-faceguard1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-faceguard2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-helmet0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-helmet1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-helmet2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal-dead.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal-react0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal-react1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal-react2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-normal3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned-dead.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned-react0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned-react1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned-react2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-poisoned3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-shield0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-shield1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-shield2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-shock.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Enemies\toast-warrior.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Gameplay\aim-line-target.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Gameplay\aim-line.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Gameplay\ball-cue-bottom.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Gameplay\ball-cue-middle.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Gameplay\ball-cue-top.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Gameplay\danger-zone.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\breadcrum0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\breadcrum1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\cloud0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\cloud1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\cloud2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\cloud3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\confetti.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\pickup-glow.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\poison-cloud.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\sparkle.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\toast-faceguard-particle0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\toast-faceguard-particle1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\toast-helmet-particle0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\toast-helmet-particle1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\toast-helmet-particle2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Particles\toast-shield-particle.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\missile-launcher-base0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\missile-launcher-base1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\missile-launcher-platform.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\missile.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\multi-ball-pickup.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\poison-jar.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\shock-jar0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\shock-jar1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\shock-jar2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\shock-jar3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\shock-jar4.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\tack-shooter0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\tack-shooter1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Pickups\tack.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Primitives\circle.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Test\fill.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\Test\stroke.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\banner.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\boss-badge0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\boss-badge1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\boss-badge2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\boss-badge3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\button-home.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\button-play-next.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\button-retry.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\game-over-interface.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\game-over-star0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\game-over-star1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\game-over-star2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\game-over-text.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\game-over.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\goal-panel.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-arrow.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-back-arrow.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-badge-incomplete.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-badge-locked.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-badge-selected.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-badge0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-badge1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-badge2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-badge3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\level-star.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\next-ball-badge.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\square-arrow.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\star-0.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\star-1.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\star-2.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\star-3.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\star-progress-bar.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\star-progress-fill.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\victory.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\window.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\world1-card.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sprites\UI\world2-card.png" />
+  </ItemGroup>
+</Project>
